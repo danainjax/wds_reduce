@@ -58,3 +58,12 @@ const result = team.reduce((groupedTeam, person) => {
 }, {})
 
 console.log(result)
+
+const bankAccount = [200, 25, 300, 50, 150]
+
+const bankBalance = bankAccount.reduce((total, deposit) => {
+    console.log(deposit)
+    return total +=  deposit
+})
+
+console.log(bankBalance)
